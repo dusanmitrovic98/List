@@ -50,7 +50,7 @@ public class List<T>
 
     public void Clear()
     {
-        Array.Clear(_items, 0, _count);
-        _count = 0;
+        Array.Clear(this._items, 0, this._count);
+        this._count = 0;
     }
 }
