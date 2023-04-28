@@ -2,5 +2,5 @@
 
 public class List
 {
-
+    private T[] _items;
 }
