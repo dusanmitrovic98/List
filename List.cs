@@ -39,4 +39,12 @@ public class List<T>
 
         Array.Resize(ref this._items, newCapacity);
     }
+
+    public void AddRange(IEnumerable<T> collection)
+    {
+        foreach (var item in collection)
+        {
+            Add(item);
+        }
+    }
 }
