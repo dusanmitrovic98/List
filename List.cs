@@ -1,5 +1,5 @@
 ﻿namespace List;
-public class Class1
+public class List
 {
 
 }
