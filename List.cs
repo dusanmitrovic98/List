@@ -1,6 +1,6 @@
 ﻿namespace DataStructures.Collections.List;
 
-public class List
+public class List<T>
 {
 
 }
