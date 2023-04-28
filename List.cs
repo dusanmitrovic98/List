@@ -47,4 +47,10 @@ public class List<T>
             Add(item);
         }
     }
+
+    public void Clear()
+    {
+        Array.Clear(_items, 0, _count);
+        _count = 0;
+    }
 }
