@@ -8,6 +8,6 @@ public class List<T>
 
     public List()
     {
-
+        _items = new T[DefaultCapacity];
     }
 }
