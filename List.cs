@@ -17,4 +17,16 @@ public class List<T>
         this._items = new T[capacity];
         this._count = 0;
     }
+
+    private void EnsureCapacity(int minCapacity)
+    {
+        int newCapacity = _items.Length == 0 ? DEFAULT_CAPACITY : _items.Length * 2;
+
+        if (newCapacity < minCapacity)
+        {
+            newCapacity = minCapacity;
+        }
+
+        Array.Resize(ref _items, newCapacity);
+    }
 }
