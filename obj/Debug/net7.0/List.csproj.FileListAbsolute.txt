@@ -1,0 +1,12 @@
+C:\Users\BK2O198\Documents\Workstation\List\bin\Debug\net7.0\List.deps.json
+C:\Users\BK2O198\Documents\Workstation\List\bin\Debug\net7.0\List.dll
+C:\Users\BK2O198\Documents\Workstation\List\bin\Debug\net7.0\List.pdb
+C:\Users\BK2O198\Documents\Workstation\List\obj\Debug\net7.0\List.csproj.AssemblyReference.cache
+C:\Users\BK2O198\Documents\Workstation\List\obj\Debug\net7.0\List.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BK2O198\Documents\Workstation\List\obj\Debug\net7.0\List.AssemblyInfoInputs.cache
+C:\Users\BK2O198\Documents\Workstation\List\obj\Debug\net7.0\List.AssemblyInfo.cs
+C:\Users\BK2O198\Documents\Workstation\List\obj\Debug\net7.0\List.csproj.CoreCompileInputs.cache
+C:\Users\BK2O198\Documents\Workstation\List\obj\Debug\net7.0\List.dll
+C:\Users\BK2O198\Documents\Workstation\List\obj\Debug\net7.0\refint\List.dll
+C:\Users\BK2O198\Documents\Workstation\List\obj\Debug\net7.0\List.pdb
+C:\Users\BK2O198\Documents\Workstation\List\obj\Debug\net7.0\ref\List.dll
