@@ -18,6 +18,16 @@ public class List<T>
         this._count = 0;
     }
 
+    public void Add(T item)
+    {
+        if (_count == _items.Length)
+        {
+            EnsureCapacity(_count + 1);
+        }
+
+        _items[_count++] = item;
+    }
+
     private void EnsureCapacity(int minCapacity)
     {
         int newCapacity = _items.Length == 0 ? DEFAULT_CAPACITY : _items.Length * 2;
