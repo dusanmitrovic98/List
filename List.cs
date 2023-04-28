@@ -20,23 +20,23 @@ public class List<T>
 
     public void Add(T item)
     {
-        if (_count == _items.Length)
+        if (this._count == this._items.Length)
         {
-            EnsureCapacity(_count + 1);
+            EnsureCapacity(this._count + 1);
         }
 
-        _items[_count++] = item;
+        this._items[this._count++] = item;
     }
 
     private void EnsureCapacity(int minCapacity)
     {
-        int newCapacity = _items.Length == 0 ? DEFAULT_CAPACITY : _items.Length * 2;
+        int newCapacity = this._items.Length == 0 ? DEFAULT_CAPACITY : this._items.Length * 2;
 
         if (newCapacity < minCapacity)
         {
             newCapacity = minCapacity;
         }
 
-        Array.Resize(ref _items, newCapacity);
+        Array.Resize(ref this._items, newCapacity);
     }
 }
