@@ -4,11 +4,11 @@ public class List<T>
 {
     private T[] _items;
     private int _count;
-    private const int DefaultCapacity = 4;
+    private const int DEFAULT_CAPACITY = 4;
 
     public List()
     {
-        this._items = new T[DefaultCapacity];
+        this._items = new T[DEFAULT_CAPACITY];
         this._count = 0;
     }
 }
