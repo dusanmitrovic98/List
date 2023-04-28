@@ -53,4 +53,17 @@ public class List<T>
         Array.Clear(this._items, 0, this._count);
         this._count = 0;
     }
+
+    public bool Contains(T item)
+    {
+        for (int i = 0; i < _count; i++)
+        {
+            if (EqualityComparer<T>.Default.Equals(_items[i], item))
+            {
+                return true;
+            }
+        }
+
+        return false;
+    }
 }
