@@ -14,6 +14,7 @@ public class List<T>
 
     public List(int capacity)
     {
-
+        this._items = new T[capacity];
+        this._count = 0;
     }
 }
