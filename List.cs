@@ -8,7 +8,7 @@ public class List<T>
 
     public List()
     {
-        _items = new T[DefaultCapacity];
+        this._items = new T[DefaultCapacity];
         this._count = 0;
     }
 }
