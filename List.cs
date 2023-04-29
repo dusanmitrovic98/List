@@ -84,4 +84,9 @@ public class List<T>
             action(_items[i]);
         }
     }
+
+    public IEnumerator<T> GetEnumerator()
+    {
+
+    }
 }
