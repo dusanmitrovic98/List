@@ -145,9 +145,4 @@ public class List<T>
         _items[index] = item;
         this._count++;
     }
-
-    public int LastIndexOf(T item)
-    {
-
-    }
 }
