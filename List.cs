@@ -100,6 +100,10 @@ public class List<T>
             throw new ArgumentOutOfRangeException(nameof(index), "Index is less than 0.");
         }
 
+        if (count < 0)
+        {
+            throw new ArgumentOutOfRangeException(nameof(count), "Count is less than 0.");
+        }
 
     }
 }
