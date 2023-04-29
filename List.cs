@@ -105,7 +105,6 @@ public class List<T>
             throw new ArgumentOutOfRangeException(nameof(count), "Count is less than 0.");
         }
 
-
         if (this._count - index < count)
         {
             throw new ArgumentException("Invalid range.");
