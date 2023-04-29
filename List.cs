@@ -119,4 +119,10 @@ public class List<T>
 
         return rangeList;
     }
+
+    public int IndexOf(T item)
+    {
+        return Array.IndexOf(_items, item, 0, this._count);
+    }
+
 }
