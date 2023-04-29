@@ -66,4 +66,9 @@ public class List<T>
 
         return false;
     }
+
+    public void CopyTo(T[] array, int arrayIndex)
+    {
+
+    }
 }
