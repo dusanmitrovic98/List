@@ -74,6 +74,9 @@ public class List<T>
 
     public void ForEach(Action<T> action)
     {
-
+        if (action == null)
+        {
+            throw new ArgumentNullException(nameof(action));
+        }
     }
 }
