@@ -87,6 +87,9 @@ public class List<T>
 
     public IEnumerator<T> GetEnumerator()
     {
-
+        for (int i = 0; i < this._count; i++)
+        {
+            yield return _items[i];
+        }
     }
 }
