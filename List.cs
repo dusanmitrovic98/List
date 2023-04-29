@@ -125,4 +125,8 @@ public class List<T>
         return Array.IndexOf(_items, item, 0, this._count);
     }
 
+    public void Insert(int index, T item)
+    {
+
+    }
 }
