@@ -113,6 +113,11 @@ public class List<T>
 
         var rangeList = new List<T>(count);
 
+        for (int i = index; i < index + count; i++)
+        {
+            rangeList.Add(_items[i]);
+        }
 
+        return rangeList;
     }
 }
