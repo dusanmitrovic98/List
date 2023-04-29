@@ -69,6 +69,6 @@ public class List<T>
 
     public void CopyTo(T[] array, int arrayIndex)
     {
-
+        _items.CopyTo(array, arrayIndex);
     }
 }
