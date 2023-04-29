@@ -111,6 +111,8 @@ public class List<T>
             throw new ArgumentException("Invalid range.");
         }
 
+        var rangeList = new List<T>(count);
+
 
     }
 }
