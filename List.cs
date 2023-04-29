@@ -95,6 +95,11 @@ public class List<T>
 
     public List<T> GetRange(int index, int count)
     {
+        if (index < 0)
+        {
+            throw new ArgumentOutOfRangeException(nameof(index), "Index is less than 0.");
+        }
+
 
     }
 }
