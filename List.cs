@@ -71,4 +71,9 @@ public class List<T>
     {
         _items.CopyTo(array, arrayIndex);
     }
+
+    public void ForEach(Action<T> action)
+    {
+
+    }
 }
