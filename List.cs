@@ -150,5 +150,10 @@ public class List<T>
     {
         int left = 0;
         int right = this._count - 1;
+
+        while (left < right)
+        {
+
+        }
     }
 }
