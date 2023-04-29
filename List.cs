@@ -92,4 +92,9 @@ public class List<T>
             yield return _items[i];
         }
     }
+
+    public List<T> GetRange(int index, int count)
+    {
+
+    }
 }
