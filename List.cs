@@ -188,6 +188,8 @@ public class List<T>
         if (count > 0)
         {
             Array.Copy(_items, index + count, _items, index, this._count - index - count);
+            Array.Clear(_items, this._count - count, count);
+
         }
     }
 }
