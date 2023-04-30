@@ -175,5 +175,6 @@ public class List<T>
         }
 
         this._count--;
+        this._items[_count] = default(T);
     }
 }
