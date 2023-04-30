@@ -154,6 +154,7 @@ public class List<T>
         while (left < right)
         {
             T temp = _items[left];
+            _items[left] = _items[right];
 
         }
     }
