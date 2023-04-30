@@ -173,5 +173,9 @@ public class List<T>
         {
             this._items[i] = this._items[i + 1];
         }
+
+
+        this._count--;
+        this._items[_count] = default(T);
     }
 }
