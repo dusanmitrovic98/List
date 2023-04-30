@@ -161,4 +161,9 @@ public class List<T>
             right--;
         }
     }
+
+    public void RemoveAt(int index)
+    {
+
+    }
 }
