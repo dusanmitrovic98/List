@@ -40,7 +40,6 @@ public class List<T>
         this._items[this._count++] = item;
     }
 
-
     public void AddRange(IEnumerable<T> collection)
     {
         foreach (var item in collection)
