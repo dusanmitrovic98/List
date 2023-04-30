@@ -164,6 +164,9 @@ public class List<T>
 
     public void RemoveAt(int index)
     {
-
+        if (index < 0 || index >= this._count)
+        {
+            throw new ArgumentOutOfRangeException(nameof(index));
+        }
     }
 }
