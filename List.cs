@@ -168,5 +168,10 @@ public class List<T>
         {
             throw new ArgumentOutOfRangeException(nameof(index));
         }
+
+        for (int i = index; i < this._count - 1; i++)
+        {
+            this._items[i] = this._items[i + 1];
+        }
     }
 }
