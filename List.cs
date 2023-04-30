@@ -180,6 +180,10 @@ public class List<T>
 
     public void RemoveRange(int index, int count)
     {
+        if (index < 0 || index + count > _size)
+        {
+            throw new ArgumentOutOfRangeException("index or count is out of range");
+        }
 
     }
 }
