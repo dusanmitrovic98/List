@@ -169,7 +169,6 @@ public class List<T>
             throw new ArgumentOutOfRangeException(nameof(index));
         }
 
-
         this._count--;
         this._items[_count] = default(T);
     }
