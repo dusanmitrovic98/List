@@ -150,16 +150,6 @@ public class List<T>
     {
         int left = 0;
         int right = this._count - 1;
-
-        while (left < right)
-        {
-            T temp = _items[left];
-            _items[left] = _items[right];
-            _items[right] = temp;
-
-            left++;
-            right--;
-        }
     }
 
     public void RemoveAt(int index)
