@@ -2,5 +2,5 @@
 
 public class List<T>
 {
-
+    private T[] _items;
 }
