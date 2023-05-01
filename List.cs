@@ -32,6 +32,11 @@ public class List<T>
 
     public void Add(T item)
     {
+        if (this._count == this._items.Length)
+        {
+            EnsureCapacity(this._count + 1);
+        }
 
+        this._items[this._count++] = item;
     }
 }
