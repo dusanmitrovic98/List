@@ -11,4 +11,9 @@ public class List<T>
         this._items = new T[DEFAULT_CAPACITY];
         this._count = 0;
     }
+
+    public List(int capacity)
+    {
+
+    }
 }
