@@ -127,7 +127,10 @@ public class List<T>
 
     public void Insert(int index, T item)
     {
-
+        if (index < 0 || index > this._count)
+        {
+            throw new ArgumentOutOfRangeException(nameof(index));
+        }
     }
 
     public void Reverse()
