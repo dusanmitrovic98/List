@@ -148,7 +148,7 @@ public class List<T>
 
     public void Reverse()
     {
-
+        int left = 0;
     }
 
     public void RemoveAt(int index)
