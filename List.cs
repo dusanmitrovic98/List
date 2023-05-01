@@ -127,23 +127,7 @@ public class List<T>
 
     public void Insert(int index, T item)
     {
-        if (index < 0 || index > this._count)
-        {
-            throw new ArgumentOutOfRangeException(nameof(index));
-        }
 
-        if (this._count == _items.Length)
-        {
-            EnsureCapacity(this._count + 1);
-        }
-
-        if (index < this._count)
-        {
-            Array.Copy(_items, index, _items, index + 1, this._count - index);
-        }
-
-        _items[index] = item;
-        this._count++;
     }
 
     public void Reverse()
