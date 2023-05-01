@@ -131,6 +131,11 @@ public class List<T>
         {
             throw new ArgumentOutOfRangeException(nameof(index));
         }
+
+        if (this._count == _items.Length)
+        {
+            EnsureCapacity(this._count + 1);
+        }
     }
 
     public void Reverse()
