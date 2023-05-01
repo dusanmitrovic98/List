@@ -78,6 +78,11 @@ public class List<T>
         {
             throw new ArgumentNullException(nameof(action));
         }
+
+        for (int i = 0; i < this._count; i++)
+        {
+            action(_items[i]);
+        }
     }
 
     public IEnumerator<T> GetEnumerator()
