@@ -42,6 +42,9 @@ public class List<T>
 
     public void AddRange(IEnumerable<T> collection)
     {
-
+        foreach (var item in collection)
+        {
+            Add(item);
+        }
     }
 }
