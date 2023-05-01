@@ -136,6 +136,11 @@ public class List<T>
         {
             EnsureCapacity(this._count + 1);
         }
+
+        if (index < this._count)
+        {
+            Array.Copy(_items, index, _items, index + 1, this._count - index);
+        }
     }
 
     public void Reverse()
