@@ -143,6 +143,7 @@ public class List<T>
         }
 
         _items[index] = item;
+        this._count++;
     }
 
     public void Reverse()
