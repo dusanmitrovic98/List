@@ -158,7 +158,6 @@ public class List<T>
             _items[right] = temp;
 
             left++;
-            right--;
         }
     }
 
