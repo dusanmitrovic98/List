@@ -149,6 +149,7 @@ public class List<T>
     public void Reverse()
     {
         int left = 0;
+        int right = this._count - 1;
     }
 
     public void RemoveAt(int index)
