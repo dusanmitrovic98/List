@@ -39,4 +39,9 @@ public class List<T>
 
         this._items[this._count++] = item;
     }
+
+    public void AddRange(IEnumerable<T> collection)
+    {
+
+    }
 }
