@@ -29,4 +29,9 @@ public class List<T>
 
         Array.Resize(ref this._items, newCapacity);
     }
+
+    public void Add(T item)
+    {
+
+    }
 }
